@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Angular
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   Build_and_Test:
