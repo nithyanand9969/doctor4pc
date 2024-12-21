@@ -27,7 +27,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
       - name: Login to Docker Hub
-        run: docker login -u nithyanandandar.m@gmail.com -p Mumbai@2050
+        run: docker login -u nithyanandnadar.m@gmail.com -p Mumbai@2050
       - name: Build Docker Image
         run: docker build -t nithyanandnadar/angular .
       - name: Push image to docker hub
