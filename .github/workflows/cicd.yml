@@ -45,4 +45,4 @@ jobs:
       - name: Remove Old Container
         run: docker rm -f angular-container || true
       - name: Run Docker Container
-        run: docker run -d -p 80:80 --name angular-container nithyanandnadar/angular
+        run: docker run -d -p 70:70 --name angular-container nithyanandnadar/angular
