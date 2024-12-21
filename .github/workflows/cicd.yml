@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build Angular Project
-        run: ng build
+        run: npm build
 
   Build_Docker_Image:
     needs: Build_and_Test
